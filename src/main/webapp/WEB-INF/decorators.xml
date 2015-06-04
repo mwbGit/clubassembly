@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/layout/">
+    <excludes>
+        <pattern>/static/**</pattern>
+        <pattern>/index</pattern>
+        <pattern>/login</pattern>
+        <pattern>/active</pattern>
+        <pattern>/checkemail</pattern>
+        <pattern>/getcity</pattern>
+        <pattern>/getschool</pattern>
+        <pattern>/register</pattern>
+        <pattern>/uploadstudentimage</pattern>
+        <pattern>/home/waitauditorganizations</pattern>
+        <pattern>/home/alreadyInOrganizations</pattern>
+        <pattern>/home/getchoseorganization</pattern>
+        <pattern>/home/watchedstudents</pattern>
+        <pattern>/home/bewatchedstudents</pattern>
+        <pattern>/home/interwatchedstudents</pattern>
+        <pattern>/manager/login</pattern>
+    </excludes>
+
+    <decorator name="default" page="default.jsp">
+        <pattern>/home/*</pattern>
+        <pattern>/organization/*</pattern>
+        <pattern>/student/*</pattern>
+    </decorator>
+
+    <decorator name="manager" page="manager.jsp">
+        <pattern>/manager/*</pattern>
+    </decorator>
+</decorators>

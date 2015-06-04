@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+
+    <!-- scheduleGetNews任务调用详细信息 -->
+    <bean id="activeStudentScheduler"
+          class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <!-- 调用的类 -->
+        <property name="targetObject">
+            <ref bean="studentServiceImplement"/>
+        </property>
+        <!-- 调用类中的方法 -->
+        <property name="targetMethod">
+            <value>activeStudentScheduler</value>
+        </property>
+    </bean>
+
+
+    <!-- scheduleGetNews定义触发器 -->
+    <bean id="activeStudentSchedulerTrigger"
+          class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail">
+            <ref bean="activeStudentScheduler"/>
+        </property>
+        <!-- cron表达式 -->
+        <property name="cronExpression">
+            <!-- 1．秒（0–59） 2．分钟（0–59） 3．小时（0–23） 4．月份中的日期（1–31） 5．月份（1–12或JAN–DEC）
+            6．星期中的日期（1–7或SUN–SAT） 7．年份（1970–2099） -->
+            <!-- 0/30 * * * * ? 每隔30秒执行一次 （隔多长时间） -->
+            <!-- 30 * * * * ? 到每分钟的30秒时执行一次 （到什么时间） -->
+            <!-- 0 1 * * * ? 到每小时的1份钟时执行一次 -->
+            <!-- 0 0/1 * * * ? 从整分开始计算，每过一分钟，执行一次 -->
+            <!-- 0 0 6 * * ? 到每天的6点执行一次 -->
+            <value>0 0 0 * * ?</value>
+        </property>
+    </bean>
+
+
+    <!-- 订制任务列表 -->
+    <!-- lazy-init="false" autowire="no" -->
+    <!-- 初始化后，延迟加载任务列表，若为false，则不延迟加载。 -->
+    <bean id="startQuertz"
+          class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="activeStudentSchedulerTrigger"/>
+            </list>
+        </property>
+    </bean>
+</beans>  
