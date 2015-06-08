@@ -1,3 +1,6 @@
+<%@ page import="org.apache.shiro.subject.Subject" %>
+<%@ page import="cn.edu.hebtu.www.clubassembly.web.model.ShiroUser" %>
+<%@ page import="org.apache.shiro.SecurityUtils" %>
 <%@ page language="java" pageEncoding="utf-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
@@ -140,6 +143,16 @@
     </div>
     <hr/>
     本校社团<br/>
+
+   <%-- <%
+        ShiroUser user = (ShiroUser) SecurityUtils.getSubject().getPrincipal();
+        user.getEmail();
+    %>--%>
+
+
+
+
+
     <c:if test="${sameSchoolOrganizations != null && sameSchoolOrganizations.size() > 0}">
         <c:forEach var="organization" items="${sameSchoolOrganizations}" varStatus="status">
             <c:if test="${status.index % 4 == 0}">

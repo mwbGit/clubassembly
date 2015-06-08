@@ -78,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/manager/system_monitor.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/manager/student/student_profile_update.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/manager/student/student_profile_view.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/service/RoleServiceI.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/service/implement/RoleServiceImplement.java" />
@@ -129,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/organization/organization_main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/webuploader-0.1.5/examples/image-upload/upload.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" />
+        <option value="$PROJECT_DIR$/doc/快捷键.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -197,7 +197,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,18 +205,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clubassembly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clubassembly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -253,17 +243,18 @@
       <recent name="cn.edu.hebtu.www.clubassembly.web.dao.implement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\clubassembly\src\main\resources\sql\mysql" />
+      <recent name="D:\idea\clubassembly" />
       <recent name="D:\idea\clubassembly\src\main\webapp\static\css" />
       <recent name="D:\idea\clubassembly\src\main\webapp\static\js" />
       <recent name="D:\idea\clubassembly\src\main\webapp\WEB-INF\view\organization" />
-      <recent name="D:\idea\clubassembly\src\main\resources\sql" />
-      <recent name="D:\idea\clubassembly\src\main\webapp\WEB-INF\view\manager\organization" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\clubassembly\src\main\resources\sql\mysql" />
+      <recent name="D:\idea\clubassembly\doc" />
       <recent name="D:\idea\clubassembly\src\main\resources" />
       <recent name="D:\idea\clubassembly\src\main\webapp\WEB-INF\layout" />
       <recent name="D:\idea\clubassembly\src\main\webapp\WEB-INF\view" />
-      <recent name="D:\idea\clubassembly\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Batch.deploy">
@@ -749,14 +740,20 @@
       <workItem from="1432822700309" duration="372000" />
       <workItem from="1433374519512" duration="1334000" />
       <workItem from="1433423669507" duration="217000" />
+      <workItem from="1433683896911" duration="129000" />
+      <workItem from="1433728007399" duration="2004000" />
+      <workItem from="1433734088815" duration="4672000" />
+      <workItem from="1433740740016" duration="1078000" />
+      <workItem from="1433743526319" duration="2698000" />
+      <workItem from="1433756781338" duration="1984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367896000" />
+    <option name="totallyTimeSpent" value="380461000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -772,7 +769,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15042736" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4854701" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33459213" sideWeight="0.50085473" order="4" side_tool="true" content_ui="tabs" />
@@ -781,7 +778,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27265862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3134441" sideWeight="0.4991453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25528702" sideWeight="0.4991453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30427352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -793,17 +790,17 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3194864" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3194864" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15042736" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4854701" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924472" sideWeight="0.4991453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32175228" sideWeight="0.4991453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30427352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -818,8 +815,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33459213" sideWeight="0.50085473" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27265862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27265862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -849,116 +846,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/manager/organization/organization_profile_view.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="26" selection-start="1604" selection-end="6387" vertical-scroll-proportion="-6.935484" vertical-offset="2755" max-vertical-offset="3300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/manager/organization/organization_profile_update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="3468" selection-end="3468" vertical-scroll-proportion="2.8368123" vertical-offset="221" max-vertical-offset="3146" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="2963" selection-end="3170" vertical-scroll-proportion="0.493578" vertical-offset="1337" max-vertical-offset="9108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/Flat-UI-master/dist/css/flat-ui.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="216150" selection-start="216146" selection-end="216150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/Flat-UI-master/dist/css/flat-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="366" column="16" selection-start="7795" selection-end="7801" vertical-scroll-proportion="0.5019231" vertical-offset="7791" max-vertical-offset="136532" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/Flat-UI-master/dist/css/flat-ui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4536" column="29" selection-start="117706" selection-end="117712" vertical-scroll-proportion="0.35779816" vertical-offset="99597" max-vertical-offset="138688" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/Flat-UI-master/dist/css/vendor/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4522" column="27" selection-start="87513" selection-end="87513" vertical-scroll-proportion="0.35779816" vertical-offset="99289" max-vertical-offset="146762" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/model/OrganizationPhotos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="296" selection-end="296" vertical-scroll-proportion="0.47311828" vertical-offset="0" max-vertical-offset="1342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-quartz.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="660" selection-end="660" vertical-scroll-proportion="-0.8122605" vertical-offset="732" max-vertical-offset="1254" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.45357144" vertical-offset="254" max-vertical-offset="814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-smtp-mail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="780" selection-end="780" vertical-scroll-proportion="0.3678161" vertical-offset="182" max-vertical-offset="1166" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.4980843" vertical-offset="1304" max-vertical-offset="2354" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/realm/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="39" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.39285713" vertical-offset="0" max-vertical-offset="2816" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/utils/DESEncrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="-1.5142857" vertical-offset="1002" max-vertical-offset="1562" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="10" selection-start="1871" selection-end="1871" vertical-scroll-proportion="1.7701149" vertical-offset="0" max-vertical-offset="1056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.66422" vertical-offset="1452" max-vertical-offset="2200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/utils/BaseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="-1.574312" vertical-offset="1012" max-vertical-offset="1716" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="733" selection-end="733" vertical-scroll-proportion="0.5778612" vertical-offset="0" max-vertical-offset="533" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/edu/hebtu/www/clubassembly/TestStudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="9" selection-start="3453" selection-end="3453" vertical-scroll-proportion="0.6458716" vertical-offset="1496" max-vertical-offset="4488" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/editor/jsp/upload_json.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.38372093" vertical-offset="0" max-vertical-offset="3234" />
@@ -982,11 +869,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.2.RELEASE/spring-context-3.1.2.RELEASE-sources.jar!/org/springframework/ui/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="17" selection-start="984" selection-end="984" vertical-scroll-proportion="0.5630713" vertical-offset="0" max-vertical-offset="1606" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="6600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/controller/IndexController.java">
@@ -1064,19 +946,6 @@
         <state line="406" column="7" selection-start="14518" selection-end="14518" vertical-scroll-proportion="0.22957198" vertical-offset="8814" max-vertical-offset="9328" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/organizationmanager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="411" column="11" selection-start="14312" selection-end="14312" vertical-scroll-proportion="16.204302" vertical-offset="0" max-vertical-offset="9262" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/clubassembly.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2552" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/webuploader-0.1.5/dist/webuploader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="47" selection-start="376" selection-end="376" vertical-scroll-proportion="-12.917431" vertical-offset="7326" max-vertical-offset="178464" />
@@ -1110,6 +979,152 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="8" selection-start="1429" selection-end="1500" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="5082" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="5250" selection-end="5250" vertical-scroll-proportion="0.51167315" vertical-offset="2047" max-vertical-offset="4004" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="53" selection-start="7251" selection-end="7271" vertical-scroll-proportion="5.0605507" vertical-offset="1180" max-vertical-offset="4642" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/organizationmanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="411" column="11" selection-start="14312" selection-end="14312" vertical-scroll-proportion="6.5541286" vertical-offset="5470" max-vertical-offset="9262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.36330274" vertical-offset="0" max-vertical-offset="9108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/快捷键.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="134" selection-end="134" vertical-scroll-proportion="0.3548387" vertical-offset="0" max-vertical-offset="2596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.5433526" vertical-offset="1320" max-vertical-offset="4312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/mysql/clubassembly_bak001.sql">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="58740" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/mysql/clubassembly_bak002.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="403" selection-end="403" vertical-scroll-proportion="0.33020636" vertical-offset="0" max-vertical-offset="71808" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/deploy.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/jetty.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="222" selection-end="222" vertical-scroll-proportion="0.4212766" vertical-offset="0" max-vertical-offset="858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-quartz.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4115385" vertical-offset="734" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-smtp-mail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2423077" vertical-offset="646" max-vertical-offset="1166">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/model/ShiroUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="390" selection-end="390" vertical-scroll-proportion="0.43369177" vertical-offset="0" max-vertical-offset="1364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="10" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.3154122" vertical-offset="1122" max-vertical-offset="4422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="21" selection-start="4103" selection-end="4185" vertical-scroll-proportion="-4.198165" vertical-offset="3894" max-vertical-offset="6600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/web/realm/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="17" selection-start="1326" selection-end="1992" vertical-scroll-proportion="0.74910396" vertical-offset="264" max-vertical-offset="2816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="16" selection-start="3588" selection-end="3630" vertical-scroll-proportion="0.63461536" vertical-offset="1386" max-vertical-offset="2354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/hebtu/www/clubassembly/utils/PasswordHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="5" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.78853047" vertical-offset="198" max-vertical-offset="2948">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="6" selection-start="1803" selection-end="1803" vertical-scroll-proportion="1.9284403" vertical-offset="137" max-vertical-offset="2200">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
