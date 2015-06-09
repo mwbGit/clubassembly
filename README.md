@@ -7,11 +7,11 @@ jquery, flat-ui, bootstrap, jquery-validation, ajax, matrix 等
 #后端技术
 spring, spring mvc, hibernate, maven, shiro, sitemesh ,quartz等
 
-#项目账号
+#项目展示
 项目前台主页：http://ztao.xyz:8080/clubassembly/index
 项目后台主页：http://ztao.xyz:8080/clubassembly/manager/login
 
-#示例密码
+#示例账号
 项目前台:641041018@qq.com,admin
 项目后台:641041018@qq.com,admin
 
