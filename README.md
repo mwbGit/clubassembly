@@ -1,5 +1,8 @@
-##项目简介
-社团集结号(clubassembly)是模仿人人网-社团人的一个java web 项目。旨在帮助刚接触java web 的同学更好的学习。
+#项目简介
+社团集结号(clubassembly)是模仿人人网-社团人的一个java web 项目。旨在做出java实用框架整合的示例性项目。
+
+#项目WiKi
+[项目WiKi](https://git.oschina.net/hbsdtaoxue/clubassembly/wikis/Home)
 
 #前端技术
 jquery, flat-ui, bootstrap, jquery-validation, ajax, matrix 等
