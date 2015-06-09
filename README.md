@@ -28,9 +28,7 @@ spring, spring mvc, hibernate, maven, [shiro](https://git.oschina.net/hbsdtaoxue
 
 4.在tomcat 目录下建立clubassemblyResourdces 文件夹
 
-5.在tomcat/conf/server.xml 文件中的</Host> 的上方加入```
-<Context reloadable="true" docBase="../clubassemblyResources" debug="0" path="/clubassembly/clubassemblyResources"/>
-```
+5.在tomcat/conf/server.xml 文件中的</Host> 的上方加入```<Context reloadable="true" docBase="../clubassemblyResources" debug="0" path="/clubassembly/clubassemblyResources"/>```
 
 
 
