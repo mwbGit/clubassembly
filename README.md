@@ -1,14 +1,13 @@
 #项目简介
 社团集结号(clubassembly)是模仿人人网-社团人的一个java web 项目。旨在做出java实用框架整合的示例性项目。
 
-#项目WiKi
-[项目WiKi](https://git.oschina.net/hbsdtaoxue/clubassembly/wikis/Home)
+#[项目WiKi](https://git.oschina.net/hbsdtaoxue/clubassembly/wikis/Home)
 
 #前端技术
 jquery, flat-ui, bootstrap, jquery-validation, ajax, matrix 等
 
 #后端技术
-spring, spring mvc, hibernate, maven, [shiro](https://git.oschina.net/hbsdtaoxue/clubassembly/wikis/Home), sitemesh ,quartz等
+spring, spring mvc, hibernate, maven, shiro, sitemesh ,quartz等
 
 #项目展示
 项目前台主页：http://ztao.xyz:8080/clubassembly/index
@@ -28,14 +27,11 @@ spring, spring mvc, hibernate, maven, [shiro](https://git.oschina.net/hbsdtaoxue
 
 4.在tomcat 目录下建立clubassemblyResourdces 文件夹
 
-5.在tomcat/conf/server.xml 文件中的</Host> 的上方加入```<Context reloadable="true" docBase="../clubassemblyResources" debug="0" path="/clubassembly/clubassemblyResources"/>```
+5.在tomcat/conf/server.xml 文件中的</Host> 的上方加入```<Context reloadable="true" docBase="../clubassemblyResources" debug="0" path="/clubassembly/clubassemblyResources"/>```   可参照config/apache-tomcat-7.0.53  的配置。 5，6两步主要用于将项目运行时上传的图片保存到项目之外，这样在下次部署项目时，图片依然能找到
 
 
 
 6.运行tomcat即可。
-
-
-
 
 
 
