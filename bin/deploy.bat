@@ -1,5 +1,6 @@
 @echo off
 
+
 echo [INFO] hello world.
 cd ..
 call mvn clean compile package

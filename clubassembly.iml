@@ -16,6 +16,7 @@
         </fileset>
       </configuration>
     </facet>
+
     <facet type="web" name="Web">
       <configuration>
         <descriptors>

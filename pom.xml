@@ -8,6 +8,8 @@
     <name>clubassembly</name>
 
 
+
+
     <properties>
         <!--jar包版本定义-->
         <java-version>1.6</java-version>
