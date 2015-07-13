@@ -39,7 +39,7 @@
         <jsp-api.version>2.2.1-b03</jsp-api.version>
         <jetty.version>7.6.11.v20130520</jetty.version>
         <hibernate-validator.version>4.3.0.Final</hibernate-validator.version>
-
+        <xmemcached-version>2.0.0</xmemcached-version>
 
         <!--mvn 插件版本定义-->
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
@@ -52,9 +52,26 @@
     </properties>
 
 
-    <!-- 指定Maven仓库 -->
+
+    <distributionManagement>
+        <repository>
+            <id>inexus</id>
+            <name>Release</name>
+            <url>http://104.160.38.168:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>inexus</id>
+            <name>Snapshots</name>
+            <url>http://104.160.38.168:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+
+<!--
+    &lt;!&ndash; 指定Maven仓库 &ndash;&gt;
     <repositories>
-        <!--maven中央仓库-->
+        &lt;!&ndash;maven中央仓库&ndash;&gt;
         <repository>
             <id>offical</id>
             <name>Maven Official Repository</name>
@@ -64,6 +81,7 @@
             </snapshots>
         </repository>
     </repositories>
+-->
 
 
     <dependencies>
@@ -86,6 +104,13 @@
             <artifactId>thumbnailator</artifactId>
             <version>0.4.7</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.googlecode.xmemcached</groupId>
+            <artifactId>xmemcached</artifactId>
+            <version>${xmemcached-version}</version>
+        </dependency>
+
 
 
         <!-- java servlet -->
