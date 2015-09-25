@@ -18,6 +18,7 @@ import java.util.Set;
 /**
  * Created by Administrator on 15-3-21.
  */
+@SuppressWarnings("unchecked")
 public class TestStudentService {
     private Logger logger = Logger.getLogger(TestStudentService.class);
     private String name;

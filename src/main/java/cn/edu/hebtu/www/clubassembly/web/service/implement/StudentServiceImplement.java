@@ -19,6 +19,7 @@ import java.util.*;
 /**
  * Created by Administrator on 15-3-21.
  */
+@SuppressWarnings("unchecked")
 @Service
 public class StudentServiceImplement implements StudentServiceI {
     private static Logger logger = Logger.getLogger(StudentServiceImplement.class);

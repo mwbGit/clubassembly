@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
  *
  * @param <T>
  */
+@SuppressWarnings("unchecked")
 public class JsonDecoder<T> implements Decoder {
 
     private static final Logger logger = Logger.getLogger(JsonDecoder.class);
