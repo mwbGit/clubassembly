@@ -38,7 +38,7 @@ spring, spring mvc, hibernate, maven, shiro, sitemesh ,quartz等
 #Android
 在product目录下，有两个apk包，一个是android用户端，一个是android管理端。在两个apk包里，嵌入了前台URL和后面URL， 因为项目前台flat-ui和项目后台matrix 都是基于bootstrap的，所以在android设备上，显示效果也非常好。
 
-
+#test
 
 
 
