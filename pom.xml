@@ -50,44 +50,42 @@
     </properties>
 
 
-
     <!--<distributionManagement>-->
-        <!--<repository>-->
-            <!--<id>inexus</id>-->
-            <!--<name>Release</name>-->
-            <!--<url>http://104.160.38.168:8081/nexus/content/repositories/releases/</url>-->
-        <!--</repository>-->
-        <!--<snapshotRepository>-->
-            <!--<id>inexus</id>-->
-            <!--<name>Snapshots</name>-->
-            <!--<url>http://104.160.38.168:8081/nexus/content/repositories/snapshots/</url>-->
-        <!--</snapshotRepository>-->
+    <!--<repository>-->
+    <!--<id>inexus</id>-->
+    <!--<name>Release</name>-->
+    <!--<url>http://104.160.38.168:8081/nexus/content/repositories/releases/</url>-->
+    <!--</repository>-->
+    <!--<snapshotRepository>-->
+    <!--<id>inexus</id>-->
+    <!--<name>Snapshots</name>-->
+    <!--<url>http://104.160.38.168:8081/nexus/content/repositories/snapshots/</url>-->
+    <!--</snapshotRepository>-->
     <!--</distributionManagement>-->
 
 
-
-<!--
-    &lt;!&ndash; 指定Maven仓库 &ndash;&gt;
-    <repositories>
-        &lt;!&ndash;maven中央仓库&ndash;&gt;
-        <repository>
-            <id>offical</id>
-            <name>Maven Official Repository</name>
-            <url>http://repo1.maven.org/maven2</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
--->
+    <!--
+        &lt;!&ndash; 指定Maven仓库 &ndash;&gt;
+        <repositories>
+            &lt;!&ndash;maven中央仓库&ndash;&gt;
+            <repository>
+                <id>offical</id>
+                <name>Maven Official Repository</name>
+                <url>http://repo1.maven.org/maven2</url>
+                <snapshots>
+                    <enabled>false</enabled>
+                </snapshots>
+            </repository>
+        </repositories>
+    -->
 
 
     <dependencies>
 
         <!--<dependency>-->
-            <!--<groupId>org.jasypt</groupId>-->
-            <!--<artifactId>jasypt</artifactId>-->
-            <!--<version>${jasypt.version}</version>-->
+        <!--<groupId>org.jasypt</groupId>-->
+        <!--<artifactId>jasypt</artifactId>-->
+        <!--<version>${jasypt.version}</version>-->
         <!--</dependency>-->
 
 
@@ -108,7 +106,6 @@
             <artifactId>xmemcached</artifactId>
             <version>${xmemcached-version}</version>
         </dependency>
-
 
 
         <!-- java servlet -->
@@ -357,6 +354,12 @@
             <scope>test</scope>
         </dependency>
 
+
+      <!--  <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver</artifactId>
+            <version>3.0.4</version>
+        </dependency>-->
     </dependencies>
 
 
