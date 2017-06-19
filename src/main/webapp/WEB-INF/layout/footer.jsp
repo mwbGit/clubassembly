@@ -21,9 +21,6 @@
                         联系方式
                     </div>
                     <div class="col-sm-3 col-md-3 col-lg-3">
-                        友情链接
-                    </div>
-                    <div class="col-sm-3 col-md-3 col-lg-3">
                         特别感谢
                     </div>
                 </div>
@@ -35,19 +32,13 @@
                     <div class="col-sm-3 col-md-3 col-lg-3">
                         <a href="#">电子邮件</a><br/>
                         <a href="#">新浪微博</a><br/>
-                        QQ:641041018<br/>
+                        QQ:562684394<br/>
                         <a href="#">地址</a><br/>
                     </div>
                     <div class="col-sm-3 col-md-3 col-lg-3">
-                        <a href="http://www.bootcss.com/">Bootstrap中文网</a><br/>
-                        <a href="http://designmodo.com/flat/">Flat UI</a><br/>
-                    </div>
-                    <div class="col-sm-3 col-md-3 col-lg-3">
-                        韩冬梅<br/>
-                        向蓉<br/>
-                        冯猛<br/>
-                        孙雪飞<br/>
-                        刘钘<br/>
+                        魏楠<br/>
+                        张东旭<br/>
+                        高翔<br/>
                     </div>
                 </div>
             </div>
